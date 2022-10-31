@@ -1,0 +1,147 @@
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+.bubble {
+  position: absolute;
+  right: 50px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 30px;
+  margin: 10;
+  max-width: 400px;
+  display: inline-block;
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+.bubble:hover {
+  opacity:1;
+  cursor: none;
+}
+
+.bubble2 {
+  position: absolute;
+  left: 20px;
+  top: 305px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10;
+  max-width: 300px;
+  display: inline-block;
+  background-color: #E4E0FF;
+  opacity: 0.4;
+}
+.bubble2:hover {
+  opacity:1;
+  cursor: none;
+}
+
+.bubble3 {
+  position: relative;
+  left: 70px;
+  top: 550px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10;
+  max-width: 300px;
+  display: inline-block;
+  background-color: #FFE5BF;
+  opacity: 0.7;
+}
+.bubble3:hover {
+  opacity:1;
+  cursor: none;
+}
+
+.bubble4 {
+  position: relative;
+  left: 175px;
+  top: 850px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10;
+  max-width: 300px;
+  display: inline-block;
+  background-color: #FDDAEA;
+  opacity: 0.4;
+}
+.bubble4:hover {
+  opacity:1;
+  cursor: none;
+}
+
+.bubble5 {
+  position: relative;
+  left: 200px;
+  top: 1200px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10;
+  max-width: 300px;
+  display: inline-block;
+  background-color: #DFECF5;
+  opacity: 0.6;
+}
+.bubble5:hover {
+  opacity:1;
+  cursor: none;
+}
+
+.bubble6 {
+  position: absolute;
+  right: 8px;
+  top: 2000px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10;
+  max-width: 300px;
+  display: inline-block;
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.bubble6:hover {
+  opacity:1;
+  cursor: none;
+}
+
+body {
+  background-size: 100%;
+  background-image: url("space.jpg");
+}
+
+button {
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 3px;
+  cursor: pointer;
+  position: absolute;
+  top: 2450px;
+  opacity: 0.3;
+}
+button:hover {
+  opacity: 0.9;
+}

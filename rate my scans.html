@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>rate my scans</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,intital-scale=1.0" />
+    <style>
+.slidecontainer {
+  width: 100%; }
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #B18981;
+  outline: none;
+  opacity: 1.0;
+  -webkit-transition: .2s;
+  transition: opacity .2s; }
+
+.slider:hover {
+  opacity: 1; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 35px;
+  border-radius: 50%;
+  background: #A72333;
+  cursor: e-resize; }
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer; }
+    </style>
+    <style>
+      th, td {
+        border: 3px ridge;
+        border-color:#CA5D6A;
+            }
+</style>
+  </head>
+  <body style="background-color:#FFD1C3">
+    <h1 style="text-align:center;">place the slider on whichever scan you like best!</h1>
+    <table>
+      <tr>
+        <td> <img src="Scan5.jpeg" width="100%"></a> </td>
+        <td> <img src="Scan15.jpeg" width=100%></a> </td>
+        <td> <img src="Scan7.1.jpeg" width=100%></a> </td>
+        <td> <img src="Scan14.jpeg" width=100%></a> </td>
+        <td> <img src="Scan8.jpeg" width=100%></a> </td>
+      </tr>
+    </table>
+    <p style="color:#FFD1C3"> . </p>
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div>
+  </body>
+</html>

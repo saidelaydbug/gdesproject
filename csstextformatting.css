@@ -1,0 +1,42 @@
+p {
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: left;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+  text-shadow: 1px 1px 12px #372F64;
+  mix-blend-mode: multiply;
+}
+
+.right {
+  position: absolute;
+  right: 2px;
+  border: 1px solid;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+  max-width: 1000px;
+  display: inline-block;
+  background-color: #EDD3D3;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.palepink {
+  color: #B0656E
+}
+
+body {
+  background-image: linear-gradient(#403775, #7354A6, #F4BDB5, #FFD26F);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
